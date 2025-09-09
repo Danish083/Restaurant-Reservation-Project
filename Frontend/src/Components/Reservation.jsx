@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        " https://2217407afe95.ngrok-free.app/api/v1/reservation/send",
+        "https://rendering-backend.onrender.com",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
